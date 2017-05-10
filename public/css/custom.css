@@ -1,0 +1,105 @@
+/* Set black box and background */
+html,body{height:100%;margin:0;padding:0;background-color: lightgrey}
+.container-fluid,.row{height:100%;background-color:lightgrey}
+.board-container{
+  margin: auto;
+  background-color: black;
+  width: 1140px;
+  height: 100px;
+  padding:0;
+}
+
+/* city pic */
+.city{
+  display: block;
+  margin: auto;
+  width: 1140px;
+  height: 500px;
+}
+
+/* Center column */
+.row-centered {
+  text-align: center;
+}
+
+/* Set column dimensions */
+.col-md-8 {
+  background-color: white;
+  display: inline-block;
+  float: none;
+  padding-bottom: 10px;
+  width: 1140px;
+  height: 300px;
+}
+
+/* Set three buttons in a row */
+span:first-child
+{
+    float: left;
+}
+
+span:last-child
+{
+    float: right;
+}
+
+.button1{
+  width: 300px;
+  height: 55px;
+  margin-top: 15px;
+  margin-left: 45px;
+  border-radius: 25px;
+  background-color: lightblue;
+}
+
+.button2{
+  width: 300px;
+  height: 55px;
+  margin-top: 15px;
+  border-radius: 0;
+  background-color: #ff80aa;
+}
+.button3{
+  width: 300px;
+  height: 55px;
+  margin-top: 15px;
+  margin-right: 45px;
+  border-radius: 25px;
+  background-color: yellow;
+}
+
+/* Set first text line */
+h2 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+/* Set footer locations */
+.headerleft {
+  margin-left: -0px;
+  margin-top: 25px;
+}
+
+.headerright {
+  margin-right: 50px;
+  margin-top: 25px;
+}
+
+
+.footerWidget1 {
+  margin-left: 45px;
+}
+
+.footerWidget2 {
+  margin-right: 55px;
+}
+
+.textheaderleft {
+  margin-left: 0;
+  line-height: 65%;
+}
+
+.textheaderright {
+  margin-right: 15px;
+  line-height: 65%;
+}
